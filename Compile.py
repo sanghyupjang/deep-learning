@@ -51,7 +51,7 @@ model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
 ""
-학습을 위한 모델 구성
+#학습을 위한 모델 구성
 compile(
     optimize='rmsprop', loss=None, metrics=None, loss_weights=None,
     weighted_metrics=None, run_eagerly=None, step_per_excution=None, **kwargs
