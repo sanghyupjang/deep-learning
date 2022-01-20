@@ -51,7 +51,7 @@ model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
 ""
-학습을 위한 모델 구성
+#학습을 위한 모델 구성
 compile(
     optimize='rmsprop', loss=None, metrics=None, loss_weights=None,
     weighted_metrics=None, run_eagerly=None, step_per_excution=None, **kwargs
@@ -62,7 +62,7 @@ compile(
 model.fit(x_train, y_train, validation_data=*(x_test, y_test), epochs=10)
 
 ""
-고정된 수의 에폭(데이터셋의 반복)에 대한 모델 교육
+#고정된 수의 에폭(데이터셋의 반복)에 대한 모델 교육
 fit(
     x=None, y=None, batch_size=None, epochs=1, verbose='auto',
     callbacks=None, validation_split=0.0, validation_date=None, shuffle=True,

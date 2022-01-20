@@ -62,7 +62,7 @@ compile(
 model.fit(x_train, y_train, validation_data=*(x_test, y_test), epochs=10)
 
 ""
-고정된 수의 에폭(데이터셋의 반복)에 대한 모델 교육
+#고정된 수의 에폭(데이터셋의 반복)에 대한 모델 교육
 fit(
     x=None, y=None, batch_size=None, epochs=1, verbose='auto',
     callbacks=None, validation_split=0.0, validation_date=None, shuffle=True,
@@ -76,7 +76,7 @@ fit(
 test_loss, test_acc = model.evaluate(x_test, y_test)
 
 ""
-테스트 모드의 모델에 대한 손실 값 및 메트릭 값을 반환한다.
+#테스트 모드의 모델에 대한 손실 값 및 메트릭 값을 반환한다.
 evaluate(
     x=None, y=None, batch_size=None, verbose=1, sample_weight=None, steps=None,
     callbacks=None, max_queue_size=10, workers=1, use_multiprocessing=False,
